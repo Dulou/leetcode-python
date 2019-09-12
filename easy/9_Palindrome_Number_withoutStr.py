@@ -14,9 +14,9 @@ class Solution(object):
         return True if reverse == x else False
 
 if __name__ == "__main__":
-    line = raw_input()
+    line = input()
     a = Solution()
     while line:
         x = int(line)
-        print a.isPalindrome(x)
-        line = raw_input()
+        print(a.isPalindrome(x))
+        line = input()
